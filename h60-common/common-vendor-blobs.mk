@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so
+    $(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
