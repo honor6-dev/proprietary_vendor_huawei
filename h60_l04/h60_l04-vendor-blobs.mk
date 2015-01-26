@@ -14,4 +14,6 @@
 
 LOCAL_PATH := vendor/huawei/h60_l04
 
-#PRODUCT_COPY_FILES +=
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so 
