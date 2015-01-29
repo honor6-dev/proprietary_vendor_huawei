@@ -14,7 +14,8 @@
 
 LOCAL_PATH := vendor/huawei/h60-common
 
-#PRODUCT_PACKAGES +=
+PRODUCT_PACKAGES += \
+	libion
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
