@@ -47,6 +47,19 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw.txt:system/vendor/firmware/nvram4334_hw.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_bella_clg.txt:system/vendor/firmware/nvram4334_hw_bella_clg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_bella_ulg.txt:system/vendor/firmware/nvram4334_hw_bella_ulg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_clg.txt:system/vendor/firmware/nvram4334_hw_jazz_clg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_tlg.txt:system/vendor/firmware/nvram4334_hw_jazz_tlg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulca.txt:system/vendor/firmware/nvram4334_hw_jazz_ulca.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_jazz_ulg.txt:system/vendor/firmware/nvram4334_hw_jazz_ulg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_tl.txt:system/vendor/firmware/nvram4334_hw_mogolia_tl.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulca.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt:system/vendor/firmware/nvram4334_hw_mogolia_ulg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt:system/vendor/firmware/nvram4334_hw_pine_ulgtlg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4339_hw_fifa_clg.txt:system/vendor/firmware/nvram4339_hw_fifa_clg.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4339_hw_fifa_ul.txt:system/vendor/firmware/nvram4339_hw_fifa_ul.txt \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram4339_hw_fifa_ulg.txt:system/vendor/firmware/nvram4339_hw_fifa_ulg.txt \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_apsta_hw.bin:system/vendor/firmware/fw_bcm4334_apsta_hw.bin \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcm4334_hw.bin:system/vendor/firmware/fw_bcm4334_hw.bin \
