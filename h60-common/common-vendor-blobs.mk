@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc_nci_pn547.hi3630.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3630.so:system/lib/hw/lights.hi3630.so \
@@ -50,23 +50,23 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so
 
 # Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3630.so:system/lib/hw/camera.hi3630.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_omron.so:system/lib/libcamera_omron.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcamera_sensor.so:system/lib/libcamera_sensor.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.hi3630.so:system/lib/hw/camera.hi3630.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_omron.so:system/lib/libcamera_omron.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcamera_sensor.so:system/lib/libcamera_sensor.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
+#    $(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so
 
 # Audio
 #PRODUCT_COPY_FILES += \
