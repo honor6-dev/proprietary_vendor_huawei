@@ -95,9 +95,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/hw_modem_service:system/bin/hw_modem_service \
     $(LOCAL_PATH)/proprietary/system/bin/teecd:system/bin/teecd \
     $(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
+    $(LOCAL_PATH)/proprietary/system/bin/glgps:system/bin/glgps \
+    $(LOCAL_PATH)/proprietary/system/bin/glgpscl:system/bin/glgpscl \
     $(LOCAL_PATH)/proprietary/system/bin/gpsdeamon:system/bin/gpsdeamon \
     $(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
-    $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff
+    $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
+    $(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver
  
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/camera_resolutions.cfg:system/etc/camera_resolutions.cfg \
