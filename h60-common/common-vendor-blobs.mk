@@ -37,7 +37,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
     $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
     $(LOCAL_PATH)/proprietary/system/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
-    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so
+    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libvia-ril.so:system/lib/libvia-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libviatelutils.so:system/lib/libviatelutils.so
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
@@ -86,6 +89,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/isp/isp.bin:system/isp/isp.bin
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     $(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
     $(LOCAL_PATH)/proprietary/system/bin/storedefaultkey:system/bin/storedefaultkey \
     $(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
