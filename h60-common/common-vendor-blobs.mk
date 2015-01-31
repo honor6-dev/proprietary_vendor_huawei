@@ -35,7 +35,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtfa9887.so:system/lib/libtfa9887.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so
+    $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
