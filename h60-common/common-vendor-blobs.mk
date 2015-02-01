@@ -277,7 +277,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
     $(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
     $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
-    $(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild
 
 # Configs
@@ -529,3 +528,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_ULCA_normal.xml \
     $(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml:system/etc/audio/modem/ascend_modem_algo_JAZZ_TLG_normal.xml \
     $(LOCAL_PATH)/proprietary/system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml:system/etc/audio/modem/ascend_modem_algo_MOGOLIA_TL_normal.xml
+
+# atcmdserver
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libnvme.so:system/lib/libnvme.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libwifitest.so:system/lib/libwifitest.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbcm_gps_pdttest.so:system/lib/libbcm_gps_pdttest.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmalidbc.so:system/lib/libmalidbc.so
