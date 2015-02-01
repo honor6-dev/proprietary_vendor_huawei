@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/huawei/h60_l12
+# Pick up overlay for features that depend on non-open-source files
+DEVICE_PACKAGE_OVERLAYS += vendor/huawei/h60_l01/overlay
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libbalong-ril.so:system/lib/libbalong-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libbalong-ril-1.so:system/lib/libbalong-ril-1.so 
+$(call inherit-product, vendor/huawei/h60_l01/h60_l01-vendor-blobs.mk)
+
