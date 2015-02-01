@@ -26,19 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so
 ###
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libandroidfw.huawei.so:system/lib/libandroidfw.huawei.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
-    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libvia-ril.so:system/lib/libvia-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libviatelutils.so:system/lib/libviatelutils.so
-
+# HW Modules
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc.hi3630.so \
@@ -47,6 +35,29 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3630.so:system/lib/hw/lights.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3630.so:system/lib/hw/power.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhub.default.so:system/lib/hw/sensors.hi3630.so
+
+# RIL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libconfig_interface.so:system/lib/libconfig_interface.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libandroidfw.huawei.so:system/lib/libandroidfw.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbalong_audio_ril.so:system/lib/libbalong_audio_ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libteec.so:system/lib/libteec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnv_public_interface.so:system/lib/libnv_public_interface.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libvia-ril.so:system/lib/libvia-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libviatelutils.so:system/lib/libviatelutils.so
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/glgps:system/bin/glgps \
+    $(LOCAL_PATH)/proprietary/system/bin/glgpscl:system/bin/glgpscl \
+    $(LOCAL_PATH)/proprietary/system/bin/gpsdeamon:system/bin/gpsdeamon
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/librpc.so:system/lib/librpc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -87,7 +98,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgo_binder.so:system/lib/libhuaweiaudioalgo_binder.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHuaweiAudioEngine.so:system/lib/libHuaweiAudioEngine.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudiopreprocessing.so:system/lib/libhuaweiaudiopreprocessing.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhuaweigpsrpc.so:system/lib/libhuaweigpsrpc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHuaweiNat.so:system/lib/libHuaweiNat.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHuaweiVideoEngine.so:system/lib/libHuaweiVideoEngine.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwAisound_Drive.so:system/lib/libhwAisound_Drive.so \
@@ -220,7 +230,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/hwcomposer.hi3630.so:system/vendor/lib/hw/hwcomposer.hi3630.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
@@ -264,9 +275,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/hw_modem_service:system/bin/hw_modem_service \
     $(LOCAL_PATH)/proprietary/system/bin/teecd:system/bin/teecd \
     $(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
-    $(LOCAL_PATH)/proprietary/system/bin/glgps:system/bin/glgps \
-    $(LOCAL_PATH)/proprietary/system/bin/glgpscl:system/bin/glgpscl \
-    $(LOCAL_PATH)/proprietary/system/bin/gpsdeamon:system/bin/gpsdeamon \
     $(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
     $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
     $(LOCAL_PATH)/proprietary/system/bin/atcmdserver:system/bin/atcmdserver \
