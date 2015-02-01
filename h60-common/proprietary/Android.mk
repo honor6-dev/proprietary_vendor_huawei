@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter h60_l02 h60_l04 ,$(TARGET_DEVICE)),)
+ifneq ($(filter h60_l01 h60_l02 h60_l03 h60_l04 h60_l11 h60_l12 h60_l21,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libion
