@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libvia-ril.so:system/lib/libvia-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libviatelutils.so:system/lib/libviatelutils.so
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/glgps:system/bin/glgps \
