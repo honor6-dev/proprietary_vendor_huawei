@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 # HW Modules
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.hi3630.so:system/lib/hw/copybit.hi3630.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc_nci.hi3630.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3630.so:system/lib/hw/lights.hi3630.so \
