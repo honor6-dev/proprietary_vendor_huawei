@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci_pn547.hi3630.so:system/lib/hw/nfc.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/lights.hi3630.so:system/lib/hw/lights.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3630.so:system/lib/hw/power.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhub.default.so:system/lib/hw/sensors.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
