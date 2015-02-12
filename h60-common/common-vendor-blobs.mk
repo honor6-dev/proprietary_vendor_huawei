@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libaudioalgoservice_jni.so:system/lib/libaudioalgoservice_jni.so \
     $(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.huawei.so:system/lib/libaudioflinger.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libBMapApiEngine_v1_3_5.so:system/lib/libBMapApiEngine_v1_3_5.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcamera_core.so:system/lib/libcamera_core.so \
     $(LOCAL_PATH)/proprietary/system/lib/libcamera_drv.so:system/lib/libcamera_drv.so \
@@ -103,27 +102,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgo_binder.so:system/lib/libhuaweiaudioalgo_binder.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libHuaweiAudioEngine.so:system/lib/libHuaweiAudioEngine.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudiopreprocessing.so:system/lib/libhuaweiaudiopreprocessing.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libHuaweiNat.so:system/lib/libHuaweiNat.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libHuaweiVideoEngine.so:system/lib/libHuaweiVideoEngine.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwAisound_Drive.so:system/lib/libhwAisound_Drive.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwAitalkLD.so:system/lib/libhwAitalkLD.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwAitalkLD_Drive.so:system/lib/libhwAitalkLD_Drive.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwdeviceinfo.so:system/lib/libhwdeviceinfo.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwextdevice.so:system/lib/libhwextdevice.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHWExtDeviceService.so:system/lib/libHWExtDeviceService.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhwffmpeg_neon.so:system/lib/libhwffmpeg_neon.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHW_FrontPano.so:system/lib/libHW_FrontPano.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwIvw30.so:system/lib/libhwIvw30.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHwMotionRecognition.so:system/lib/libHwMotionRecognition.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhwplayergl.so:system/lib/libhwplayergl.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwsign.so:system/lib/libhwsign.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhw_sys.so:system/lib/libhw_sys.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhwtheme_jni.so:system/lib/libhwtheme_jni.so \
     $(LOCAL_PATH)/proprietary/system/lib/libHwTmr.so:system/lib/libHwTmr.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhwvideoeditor_neon.so:system/lib/libhwvideoeditor_neon.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhwvideoRenderer.so:system/lib/libhwvideoRenderer.so \
     $(LOCAL_PATH)/proprietary/system/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
     $(LOCAL_PATH)/proprietary/system/lib/libjpu.so:system/lib/libjpu.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
@@ -134,7 +126,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libmedialogservice.so:system/lib/libmedialogservice.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmediaplayerservice.huawei.so:system/lib/libmediaplayerservice.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libmediawriter_jni.so:system/lib/libmediawriter_jni.so \
     $(LOCAL_PATH)/proprietary/system/lib/libMirrorAudioService.so:system/lib/libMirrorAudioService.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmirror_media.so:system/lib/libmirror_media.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmirror_media_platform.so:system/lib/libmirror_media_platform.so \
@@ -270,7 +261,6 @@ PRODUCT_COPY_FILES += \
 
 # System executables
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     $(LOCAL_PATH)/proprietary/system/bin/thermal-daemon:system/bin/thermal-daemon \
     $(LOCAL_PATH)/proprietary/system/bin/storedefaultkey:system/bin/storedefaultkey \
     $(LOCAL_PATH)/proprietary/system/bin/hwnffserver:system/bin/hwnffserver \
