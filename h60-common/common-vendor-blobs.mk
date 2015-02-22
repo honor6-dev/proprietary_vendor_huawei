@@ -285,7 +285,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/device_monitor:system/bin/device_monitor \
     $(LOCAL_PATH)/proprietary/system/bin/hwpged:system/bin/hwpged \
     $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
-    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild
+    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
+    $(LOCAL_PATH)/proprietary/system/bin/wpa_supplicant:system/bin/wpa_supplicant
 
 # Configs
 PRODUCT_COPY_FILES += \
