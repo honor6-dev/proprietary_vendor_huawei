@@ -224,6 +224,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/helix/wmv9.so:system/lib/helix/wmv9.so \
     $(LOCAL_PATH)/proprietary/system/lib/helix/wmvrender.so:system/lib/helix/wmvrender.so
 
+# DRM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libhisinve.so:system/lib/libhisinve.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
 # Graphics
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/gralloc.hi3630.so:system/vendor/lib/hw/gralloc.hi3630.so \
