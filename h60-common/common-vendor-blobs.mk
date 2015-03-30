@@ -20,8 +20,7 @@ PRODUCT_PACKAGES += \
 
 ### surfaceflinger blobs have to go away!
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
+    $(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so
 ###
 
 # HW Modules
