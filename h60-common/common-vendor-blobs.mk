@@ -234,6 +234,7 @@ PRODUCT_COPY_FILES += \
 # Graphics
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/gralloc.hi3630.so:system/vendor/lib/hw/gralloc.hi3630.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/hwcomposer.default.so:system/vendor/lib/hw/hwcomposer.default.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/hwcomposer.hi3630.so:system/vendor/lib/hw/hwcomposer.hi3630.so
 
 PRODUCT_COPY_FILES += \
