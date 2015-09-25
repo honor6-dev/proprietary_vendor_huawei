@@ -392,6 +392,9 @@
             <reg name="MAINMIC PGA VOLUME">8dB</reg>
             <reg name="MAINMIC PGA BOOST">1</reg>
             <reg name="MAINMIC PGA MUTE">0</reg>
+            <reg name="SUBMIC PGA VOLUME">8dB</reg>
+            <reg name="SUBMIC PGA BOOST">1</reg>
+            <reg name="SUBMIC PGA MUTE">0</reg>
         </scene>
         <scene id="1" name="RECORD_DOUBLE_MIC">
             <reg name="HI6401_ADCL_AGC_TIMENNG">1</reg>
@@ -1951,8 +1954,8 @@
             <reg name="HI6401_DACL_SDM_DITHER">1</reg>
             <reg name="HI6401_BYPASS_DACR_DEEMP">1</reg>
             <reg name="HI6401_BYPASS_DACL_DEEMP">1</reg>
-            <reg name="HI6401_S1_IL_GAIN_INT">-2dB</reg>
-            <reg name="HI6401_S1_IR_GAIN_INT">-2dB</reg>
+            <reg name="HI6401_S1_IL_GAIN_INT">-6dB</reg>
+            <reg name="HI6401_S1_IR_GAIN_INT">-6dB</reg>
             <reg name="HI6401_DACL_AGC_TIMENNG">0</reg>
             <reg name="HI6401_DACL_AGC_NGI">4</reg>
             <reg name="HI6401_DACL_AGC_TIMER">4</reg>
@@ -1973,7 +1976,7 @@
             <reg name="HI6401_DACL_AGC_GMUTE">1</reg>
             <reg name="HI6401_DACL_AGC_TIMEHOLD">2</reg>
             <reg name="HI6401_DACL_AGC_TIMEDECAY">1</reg>
-            <reg name="HI6401_DACL_AGC_USER">1dB</reg>
+            <reg name="HI6401_DACL_AGC_USER">0dB</reg>
             <reg name="HI6401_DACR_AGC_TIMENNG">0</reg>
             <reg name="HI6401_DACR_AGC_NGI">4</reg>
             <reg name="HI6401_DACR_AGC_TIMER">4</reg>
@@ -1994,7 +1997,7 @@
             <reg name="HI6401_DACR_AGC_GMUTE">1</reg>
             <reg name="HI6401_DACR_AGC_TIMEHOLD">2</reg>
             <reg name="HI6401_DACR_AGC_TIMEDECAY">1</reg>
-            <reg name="HI6401_DACR_AGC_USER">1dB</reg>
+            <reg name="HI6401_DACR_AGC_USER">0dB</reg>
             <reg name="EARPIECE PGA VOLUME">1.5dB</reg>
             <reg name="EARPIECE PGA MUTE">0</reg>
         </scene>

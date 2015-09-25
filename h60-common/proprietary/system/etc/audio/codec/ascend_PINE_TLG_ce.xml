@@ -276,9 +276,9 @@
             <reg name="LINEOUTL PGA MUTE">0</reg>
             <reg name="LINEOUTR PGA VOLUME">0dB</reg>
             <reg name="LINEOUTR PGA MUTE">0</reg>
-            <reg name="HEADSETL PGA VOLUME">-7.5dB</reg>
+            <reg name="HEADSETL PGA VOLUME">-9dB</reg>
             <reg name="HEADSETL PGA MUTE">0</reg>
-            <reg name="HEADSETR PGA VOLUME">-7.5dB</reg>
+            <reg name="HEADSETR PGA VOLUME">-9dB</reg>
             <reg name="HEADSETR PGA MUTE">0</reg>
             <reg name="EARPIECE PGA VOLUME">1.5dB</reg>
             <reg name="EARPIECE PGA MUTE">0</reg>
@@ -333,9 +333,9 @@
             <reg name="LINEOUTL PGA MUTE">0</reg>
             <reg name="LINEOUTR PGA VOLUME">0dB</reg>
             <reg name="LINEOUTR PGA MUTE">0</reg>
-            <reg name="HEADSETL PGA VOLUME">-13.5dB</reg>
+            <reg name="HEADSETL PGA VOLUME">-19.5dB</reg>
             <reg name="HEADSETL PGA MUTE">0</reg>
-            <reg name="HEADSETR PGA VOLUME">-13.5dB</reg>
+            <reg name="HEADSETR PGA VOLUME">-19.5dB</reg>
             <reg name="HEADSETR PGA MUTE">0</reg>
             <reg name="EARPIECE PGA VOLUME">1.5dB</reg>
             <reg name="EARPIECE PGA MUTE">0</reg>
@@ -389,9 +389,12 @@
             <reg name="HI6401_ADCR_AGC_USER">0dB</reg>
             <reg name="HI6401_ADCR_AGC_HPF">1</reg>
             <reg name="HI6401_ADCL_AGC_HPF">1</reg>
-            <reg name="MAINMIC PGA VOLUME">2dB</reg>
+            <reg name="MAINMIC PGA VOLUME">4dB</reg>
             <reg name="MAINMIC PGA BOOST">1</reg>
             <reg name="MAINMIC PGA MUTE">0</reg>
+            <reg name="SUBMIC PGA VOLUME">4dB</reg>
+            <reg name="SUBMIC PGA BOOST">1</reg>
+            <reg name="SUBMIC PGA MUTE">0</reg>
         </scene>
         <scene id="1" name="RECORD_DOUBLE_MIC">
             <reg name="HI6401_ADCL_AGC_TIMENNG">1</reg>
@@ -438,10 +441,10 @@
             <reg name="HI6401_ADCR_AGC_USER">0dB</reg>
             <reg name="HI6401_ADCR_AGC_HPF">1</reg>
             <reg name="HI6401_ADCL_AGC_HPF">1</reg>
-            <reg name="MAINMIC PGA VOLUME">2dB</reg>
+            <reg name="MAINMIC PGA VOLUME">4dB</reg>
             <reg name="MAINMIC PGA BOOST">1</reg>
             <reg name="MAINMIC PGA MUTE">0</reg>
-            <reg name="SUBMIC PGA VOLUME">2dB</reg>
+            <reg name="SUBMIC PGA VOLUME">4dB</reg>
             <reg name="SUBMIC PGA BOOST">1</reg>
             <reg name="SUBMIC PGA MUTE">0</reg>
         </scene>
@@ -1103,8 +1106,8 @@
             <reg name="HI6401_DACL_SDM_DITHER">1</reg>
             <reg name="HI6401_BYPASS_DACR_DEEMP">1</reg>
             <reg name="HI6401_BYPASS_DACL_DEEMP">1</reg>
-            <reg name="HI6401_S1_IL_GAIN_INT">-2dB</reg>
-            <reg name="HI6401_S1_IR_GAIN_INT">-2dB</reg>
+            <reg name="HI6401_S1_IL_GAIN_INT">-8dB</reg>
+            <reg name="HI6401_S1_IR_GAIN_INT">-8dB</reg>
         </scene>
         <scene id="18" name="DIG_PB_SPEAKER">
             <reg name="HI6401_S1_IL_GAIN_INT">0dB</reg>
@@ -1131,8 +1134,8 @@
             <reg name="HI6401_DACL_SDM_DITHER">1</reg>
             <reg name="HI6401_BYPASS_DACR_DEEMP">1</reg>
             <reg name="HI6401_BYPASS_DACL_DEEMP">1</reg>
-            <reg name="HI6401_S1_IL_GAIN_INT">-2dB</reg>
-            <reg name="HI6401_S1_IR_GAIN_INT">-2dB</reg>
+            <reg name="HI6401_S1_IL_GAIN_INT">-8dB</reg>
+            <reg name="HI6401_S1_IR_GAIN_INT">-8dB</reg>
         </scene>
         <scene id="22" name="INCALL_DIG_PB_SPEAKER">
             <reg name="HI6401_S1_IL_GAIN_INT">0dB</reg>

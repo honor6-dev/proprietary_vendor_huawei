@@ -392,6 +392,9 @@
             <reg name="MAINMIC PGA VOLUME">10dB</reg>
             <reg name="MAINMIC PGA BOOST">1</reg>
             <reg name="MAINMIC PGA MUTE">0</reg>
+            <reg name="SUBMIC PGA VOLUME">8dB</reg>
+            <reg name="SUBMIC PGA BOOST">1</reg>
+            <reg name="SUBMIC PGA MUTE">0</reg>
         </scene>
         <scene id="1" name="RECORD_DOUBLE_MIC">
             <reg name="HI6401_ADCL_AGC_TIMENNG">1</reg>
