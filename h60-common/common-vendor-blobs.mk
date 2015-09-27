@@ -26,6 +26,20 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
     $(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/mediaserver:system/bin/mediaserver \
+    $(LOCAL_PATH)/proprietary/system/lib/libaudioom.so:system/lib/libaudioom.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioalgoservice.so:system/lib/libhuaweiaudioalgoservice.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwParam.so:system/lib/libCameraHwParam.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libCameraHwSendCmd.so:system/lib/libCameraHwSendCmd.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
