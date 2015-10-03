@@ -71,8 +71,13 @@ PRODUCT_COPY_FILES += \
 
 # HW modules
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps4752.default.so:system/lib/hw/gps4752.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps4752cl.default.so:system/lib/hw/gps4752cl.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps47531.default.so:system/lib/hw/gps47531.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps47531cl.default.so:system/lib/hw/gps47531cl.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.hi3630.so:system/lib/hw/keystore.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi3630.so:system/lib/hw/memtrack.hi3630.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/power.hi3630.so:system/lib/hw/power.hi3630.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so
 
@@ -120,6 +125,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/hwnff:system/bin/hwnff \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/bin/nvm_server:system/bin/nvm_server \
+    $(LOCAL_PATH)/proprietary/system/bin/hdbd:system/bin/hdbd \
+    $(LOCAL_PATH)/proprietary/system/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     $(LOCAL_PATH)/proprietary/system/etc/modemConfig/SystemCmd.cmf:system/etc/modemConfig/SystemCmd.cmf \
     $(LOCAL_PATH)/proprietary/system/etc/modemConfig/lte_ue_msg.cfg:system/etc/modemConfig/lte_ue_msg.cfg \
     $(LOCAL_PATH)/proprietary/system/etc/modemConfig/viacbp82d_log.bcfg:system/etc/modemConfig/viacbp82d_log.bcfg \
